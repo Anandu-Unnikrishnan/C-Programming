@@ -1,0 +1,17 @@
+#include <stdio.h>
+ int Square(int n)
+  {
+    int square = n*n;
+    return square;
+  }
+
+ int main()
+  {
+    int n;
+    printf("Enter a number for it's Square:\n");
+    scanf("%d",&n);
+    int x = Square(n);
+    printf("Square of the %d is = %d\n",n,x);
+    return 0;
+  }
+
